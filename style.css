@@ -46,9 +46,20 @@ li {
   color: #f9faf8;
   background: #1F2937;
   display: flex;
+  flex: 1;
 
 
 }
+
+.header .header-left {
+  color: #f9faf8;
+
+}
+
+.header .header-right {
+  
+}
+
 
 .header .title {
   color: #f9faf8;
@@ -62,6 +73,27 @@ li {
 
 }
 
+.header .sign-up {
+  color: #f9faf8;
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 10px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.header .header-img {
+
+}
+
+
+
 .first  {
   color: #1f2937;
   background: white;
@@ -71,11 +103,61 @@ li {
 
 }
 
+.first .cta {
+  display: flex;
+}
+
+.first .cta-left {
+  display: flex;
+}
+
+.first .cta-title {
+  font-weight: 900;
+}
+
+.first .cta-text {
+  
+}
+
+.first .cta-right {
+  display: flex;
+}
+
+.first .cta-button {
+  color: #f9faf8;
+  font-weight: 900;
+  font-style: normal;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 10px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
 
 .second  {
   color:rgb(0, 0, 0);
   background: #e5e7eb;
   display: flex;
+  padding: 10px;
+
+}
+
+.second .quote {
+  text-align: left;
+  font-style: italic;
+  font-size: 36px;
+  padding: 10px;
+
+ 
+
+}
+
+.second .att {
+  text-align: right;
+  font-weight: 900;
+  font-size: 36px;
+  padding: 10px;
 
 
 }
