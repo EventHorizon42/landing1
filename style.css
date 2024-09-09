@@ -97,6 +97,8 @@ a {
   justify-content: center;
   max-width: fit-content;
   text-decoration: none;
+  flex: none;
+
 }
 
 
@@ -105,8 +107,39 @@ a {
   background: white;
   display: flex;
   padding: 60px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.first #first-title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 24px;
+}
+
+.first .first-cards {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding: 48px;
+  flex: 1;
+}
+
+.first .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.first img {
+  max-height: 100px;
+  max-width: 100px;
+
 }
 
 .second {
@@ -183,6 +216,8 @@ a {
   border-style: solid;
   justify-self: left;
   min-width: fit-content;
+  text-align: center;
+  flex: none;
   
 }
 
